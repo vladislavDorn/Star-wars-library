@@ -1,0 +1,61 @@
+.starwars__infoitem {
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #333;
+    width: calc(60% - 20px);
+    min-height: 340px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    transition: all .2s linear;
+}
+
+@media (max-width: 940px) {
+    .starwars__infoitem {
+      width: 100%;
+    }
+  }
+
+.starwars__infoitem_image_wrapper {
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.starwars__infoitem_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.starwars__infoitem_info {
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.starwars__infoitem_title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.starwars__infoitem_nav {
+    padding-left: 20px;
+}
+
+.starwars__infoitem_nav_item {
+    list-style: none;
+    padding: 10px;
+    border-top: 1px solid #444;
+    font-size: 17px;
+}
+
+.starwars__infoitem_nav_value {
+    font-weight: 700;
+}
